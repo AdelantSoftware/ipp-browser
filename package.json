@@ -1,0 +1,56 @@
+{
+  "name": "@adelant/ipp-browser",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/ipp-browser.umd.cjs",
+  "module": "./dist/ipp-browser.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ipp-browser.js",
+      "require": "./dist/ipp-browser.umd.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelantsoftware/ipp-browser.git"
+  },
+  "version": "1.0.2",
+  "description": "ipp-browser is a powerful library that brings the power of Internet Printing Protocol (IPP) directly into the browser. With this library, you can easily integrate printing to IPP-compatible network devices directly from your web applications without having to rely on additional plugins or software.",
+  "scripts": {
+    "build": "npx vite build",
+    "start": "npx vite"
+  },
+  "author": "Cristian Della Monica",
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "lodash": "^4.17.21",
+    "react": "^19.0.0",
+    "ua-parser-js": "^2.0.1",
+    "vite": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.15",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@types/ua-parser-js": "^0.7.39",
+    "typescript": "^5.7.3"
+  },
+  "bugs": {
+    "url": "https://github.com/adelantsoftware/ipp-browser/issues"
+  },
+  "homepage": "https://github.com/adelantsoftware/ipp-browser#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "ipp",
+    "ipp-browser",
+    "print",
+    "web-print",
+    "web",
+    "browser"
+  ]
+}
